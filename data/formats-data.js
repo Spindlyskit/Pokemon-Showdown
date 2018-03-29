@@ -1345,7 +1345,7 @@ let BattleFormatsData = {
 		randomBattleMoves: ["fakeout", "return", "suckerpunch", "earthquake", "poweruppunch", "crunch"],
 		randomDoubleBattleMoves: ["fakeout", "return", "suckerpunch", "earthquake", "doubleedge", "poweruppunch", "drainpunch", "crunch", "protect"],
 		requiredItem: "Kangaskhanite",
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	horsea: {
@@ -2689,13 +2689,13 @@ let BattleFormatsData = {
 			{"generation": 3, "level": 70, "moves": ["blazekick", "slash", "mirrormove", "skyuppercut"], "pokeball": "pokeball"},
 			{"generation": 5, "level": 50, "shiny": 1, "isHidden": false, "moves": ["flareblitz", "highjumpkick", "thunderpunch", "stoneedge"], "pokeball": "cherishball"},
 		],
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	blazikenmega: {
 		randomBattleMoves: ["flareblitz", "highjumpkick", "protect", "swordsdance", "substitute", "batonpass", "stoneedge", "knockoff"],
 		requiredItem: "Blazikenite",
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	mudkip: {
@@ -3732,7 +3732,7 @@ let BattleFormatsData = {
 		randomBattleMoves: ["meteormash", "earthquake", "agility", "zenheadbutt", "hammerarm", "icepunch"],
 		randomDoubleBattleMoves: ["meteormash", "earthquake", "protect", "zenheadbutt", "thunderpunch", "icepunch"],
 		requiredItem: "Metagrossite",
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DOU",
 	},
 	regirock: {
@@ -3870,13 +3870,14 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": true, "moves": ["earthquake", "precipiceblades", "bulkup", "solarbeam"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	groudonprimal: {
 		randomBattleMoves: ["stealthrock", "precipiceblades", "lavaplume", "stoneedge", "dragontail", "rockpolish", "swordsdance", "firepunch"],
 		randomDoubleBattleMoves: ["precipiceblades", "lavaplume", "rockslide", "stoneedge", "swordsdance", "overheat", "rockpolish", "firepunch", "protect"],
 		requiredItem: "Red Orb",
+		tier: "Uber",
 	},
 	rayquaza: {
 		randomBattleMoves: ["outrage", "vcreate", "extremespeed", "dragondance", "earthquake", "dracometeor", "dragonclaw"],
@@ -3952,7 +3953,7 @@ let BattleFormatsData = {
 			{"generation": 6, "level": 80, "moves": ["cosmicpower", "recover", "psychoboost", "hyperbeam"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	deoxysattack: {
@@ -3966,14 +3967,14 @@ let BattleFormatsData = {
 		randomBattleMoves: ["spikes", "stealthrock", "recover", "taunt", "toxic", "seismictoss", "knockoff"],
 		randomDoubleBattleMoves: ["protect", "stealthrock", "recover", "taunt", "reflect", "seismictoss", "lightscreen", "trickroom", "psychic"],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	deoxysspeed: {
 		randomBattleMoves: ["spikes", "stealthrock", "superpower", "psychoboost", "taunt", "magiccoat", "knockoff"],
 		randomDoubleBattleMoves: ["superpower", "icebeam", "psychoboost", "taunt", "lightscreen", "reflect", "protect", "knockoff"],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	turtwig: {
@@ -4506,7 +4507,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 100, "isHidden": false, "moves": ["roaroftime", "aurasphere", "dracometeor", "flashcannon"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	palkia: {
@@ -4525,7 +4526,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 100, "isHidden": false, "moves": ["spacialrend", "aurasphere", "dracometeor", "hydropump"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	heatran: {
@@ -4577,7 +4578,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": 1, "isHidden": false, "moves": ["shadowforce", "aurasphere", "earthpower", "dragonclaw"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	giratinaorigin: {
@@ -4585,7 +4586,7 @@ let BattleFormatsData = {
 		randomDoubleBattleMoves: ["dracometeor", "shadowsneak", "tailwind", "hiddenpowerfire", "willowisp", "calmmind", "substitute", "dragonpulse", "shadowball", "aurasphere", "protect", "earthquake"],
 		eventOnly: true,
 		requiredItem: "Griseous Orb",
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	cresselia: {
@@ -4640,7 +4641,7 @@ let BattleFormatsData = {
 			{"generation": 6, "level": 100, "moves": ["darkvoid", "ominouswind", "nightmare", "feintattack"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	shaymin: {
@@ -4661,7 +4662,7 @@ let BattleFormatsData = {
 		randomBattleMoves: ["seedflare", "earthpower", "airslash", "hiddenpowerfire", "substitute", "leechseed", "healingwish"],
 		randomDoubleBattleMoves: ["seedflare", "earthpower", "airslash", "hiddenpowerfire", "rest", "substitute", "leechseed", "tailwind", "protect", "hiddenpowerice"],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	arceus: {
@@ -4682,6 +4683,7 @@ let BattleFormatsData = {
 		randomBattleMoves: ["swordsdance", "xscissor", "stoneedge", "recover", "earthquake", "ironhead"],
 		randomDoubleBattleMoves: ["swordsdance", "xscissor", "stoneedge", "recover", "earthquake", "ironhead", "protect"],
 		eventOnly: true,
+		tier: "BL Uber",
 		requiredItems: ["Insect Plate", "Buginium Z"],
 	},
 	arceusdark: {
@@ -4718,6 +4720,7 @@ let BattleFormatsData = {
 		randomBattleMoves: ["calmmind", "judgment", "grassknot", "thunderbolt", "icebeam", "recover"],
 		randomDoubleBattleMoves: ["calmmind", "judgment", "thunderbolt", "recover", "heatwave", "protect", "willowisp"],
 		eventOnly: true,
+		tier: "BL Uber",
 		requiredItems: ["Flame Plate", "Firium Z"],
 	},
 	arceusflying: {
@@ -4736,6 +4739,7 @@ let BattleFormatsData = {
 		randomBattleMoves: ["judgment", "recover", "calmmind", "icebeam", "fireblast"],
 		randomDoubleBattleMoves: ["calmmind", "icebeam", "judgment", "earthpower", "recover", "safeguard", "thunderwave", "protect"],
 		eventOnly: true,
+		tier: "BL Uber",
 		requiredItems: ["Meadow Plate", "Grassium Z"],
 	},
 	arceusground: {
@@ -4748,18 +4752,21 @@ let BattleFormatsData = {
 		randomBattleMoves: ["calmmind", "judgment", "thunderbolt", "fireblast", "recover"],
 		randomDoubleBattleMoves: ["calmmind", "judgment", "thunderbolt", "focusblast", "recover", "protect", "icywind"],
 		eventOnly: true,
+		tier: "BL Uber",
 		requiredItems: ["Icicle Plate", "Icium Z"],
 	},
 	arceuspoison: {
 		randomBattleMoves: ["calmmind", "sludgebomb", "fireblast", "recover", "willowisp", "defog", "thunderwave"],
 		randomDoubleBattleMoves: ["calmmind", "judgment", "sludgebomb", "heatwave", "recover", "willowisp", "protect", "earthpower"],
 		eventOnly: true,
+		tier: "BL Uber",
 		requiredItems: ["Toxic Plate", "Poisonium Z"],
 	},
 	arceuspsychic: {
 		randomBattleMoves: ["judgment", "calmmind", "focusblast", "recover", "defog", "thunderbolt", "willowisp"],
 		randomDoubleBattleMoves: ["calmmind", "psyshock", "focusblast", "recover", "willowisp", "judgment", "protect"],
 		eventOnly: true,
+		tier: "BL Uber",
 		requiredItems: ["Mind Plate", "Psychium Z"],
 	},
 	arceusrock: {
@@ -5750,7 +5757,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": 1, "moves": ["slash", "extrasensory", "fusionflare", "dragonpulse"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	zekrom: {
@@ -5764,7 +5771,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": 1, "moves": ["slash", "zenheadbutt", "fusionbolt", "dragonclaw"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	landorus: {
@@ -5778,7 +5785,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": 1, "isHidden": false, "moves": ["earthpower", "rockslide", "earthquake", "sandstorm"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	landorustherian: {
@@ -5827,7 +5834,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": 1, "moves": ["slash", "fusionflare", "iceburn", "dragonpulse"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	keldeo: {
@@ -5875,7 +5882,7 @@ let BattleFormatsData = {
 			{"generation": 6, "level": 100, "moves": ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DOU",
 	},
 	genesectburn: {
@@ -6110,7 +6117,7 @@ let BattleFormatsData = {
 		eventPokemon: [
 			{"generation": 6, "level": 50, "gender": "F", "nature": "Quiet", "moves": ["wideguard", "kingsshield", "shadowball", "flashcannon"], "pokeball": "cherishball"},
 		],
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DOU",
 	},
 	aegislashblade: {
@@ -7089,7 +7096,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 55, "moves": ["sunsteelstrike", "cosmicpower", "crunch", "zenheadbutt"]},
 			{"generation": 7, "level": 60, "moves": ["sunsteelstrike", "cosmicpower", "crunch", "zenheadbutt"]},
 		],
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	lunala: {
@@ -7132,7 +7139,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": 1, "moves": ["triplekick", "lunge", "bugbuzz", "mefirst"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	xurkitree: {
@@ -7205,7 +7212,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 65, "moves": ["moongeistbeam"]},
 		],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUber",
 	},
 	necrozmaultra: {

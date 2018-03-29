@@ -13,9 +13,9 @@ let Formats = [
 	},
 	{
 		name: '[Gen 7] BL Ubers',
-		ruleset: ['Pokemon', 'Team Preview', 'Mega Rayquaza Clause', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
-		banlist: ['Arceus-Base', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fairy', 'Arceus-Fighting', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Ground', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Baton Pass', 'Blazikenite', 'Blue Orb', 'Deoxys-Attack', 'Gengarite', 'Ho-Oh', 'Kyogre', 'Lucarionite', 'Lunala', 'Marshadow', 'Mewtwo', 'Mewtwonite Y', 'Naganadel', 'Necrozma-Dusk-Mane', 'Power Construct', 'Rayquaza', 'Red Orb', 'Salamencite', 'Shadow Tag', 'Ultranecrozium Z', 'Unreleased', 'Xerneas', 'Yveltal', 'illegal', 'lugia']
-	},	
+		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+	},
 	// US/UM Singles
 	///////////////////////////////////////////////////////////////////
 	{
@@ -52,7 +52,7 @@ let Formats = [
 
 		mod: 'gen7',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		banlist: ['BL Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
 		name: '[Gen 7] Ubers',
