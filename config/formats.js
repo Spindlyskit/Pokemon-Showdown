@@ -12,6 +12,11 @@ let Formats = [
 		section: 'Good Saturdays Formats',
 	},
 	{
+		name: '[Gen 7] GS OU',
+		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+		banlist: ['BL Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass', 'Toxapex', 'Kartana', 'Zygarde-50'],
+	},
+	{
 		name: '[Gen 7] BL Ubers',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
 		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
