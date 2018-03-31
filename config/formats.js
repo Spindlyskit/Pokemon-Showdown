@@ -14,7 +14,8 @@ let Formats = [
 	{
 		name: '[Gen 7] GS OU',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-		banlist: ['BL Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass', 'Toxapex', 'Kartana', 'Zygarde-50'],
+		banlist: ['BL Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass', 'Toxapex', 'Kartana', 'Zygarde'],
+		unbanlist: ['Zygarde-10%'],
 	},
 	{
 		name: '[Gen 7] BL Ubers',
