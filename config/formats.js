@@ -100,19 +100,8 @@ let Formats = [
 		],
 
 		mod: 'gen7',
-		searchShow: false,
 		ruleset: ['[Gen 7] RU'],
 		banlist: ['RU', 'BL3', 'Drought'],
-	},
-	{
-		name: '[Gen 7] NU (suspect test)',
-		threads: [
-			`&bullet; <a href='http://www.smogon.com/forums/threads/3631363/'>NU Suspect Test</a>`,
-		],
-
-		mod: 'gen7',
-		challengeShow: false,
-		ruleset: ['[Gen 7] NU'],
 	},
 	{
 		name: '[Gen 7] PU',
@@ -368,39 +357,6 @@ let Formats = [
 
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
-
-	{
-		section: 'OM of the Month',
-		column: 2,
-	},
-	{
-		name: '[Gen 7] 2v2 Doubles',
-		desc: `Double battle where you bring four Pok&eacute;mon to Team Preview and choose only two.`,
-		threads: [
-			`&bullet; <a href='http://www.smogon.com/forums/threads/3606989/'>2v2 Doubles</a>`,
-		],
-
-		mod: 'gen7',
-		gameType: 'doubles',
-		// searchShow: false,
-		teamLength: {
-			validate: [2, 4],
-			battle: 2,
-		},
-		ruleset: ['Gen 7] Doubles OU'],
-		banlist: ['Salamence-Mega', 'Tapu Lele', 'Focus Sash', 'Final Gambit', 'Perish Song'],
-	},
-	{
-		name: '[Gen 7] Nature Swap',
-		desc: `Pok&eacute;mon have their base stats swapped depending on their nature.`,
-		threads: [
-			`&bullet; <a href='http://www.smogon.com/forums/threads/3612727/'>Nature Swap</a>`,
-		],
-
-		mod: 'natureswap',
-		ruleset: ['[Gen 7] OU'],
-		banlist: ['Blissey', 'Chansey', 'Cloyster', 'Hoopa-Unbound', 'Kyurem-Black', 'Stakataka'],
-	},
 	{
 		section: 'Other Metagames',
 		column: 2,
