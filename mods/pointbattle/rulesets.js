@@ -39,7 +39,7 @@ exports.BattleFormats = {
 			}
 
 			if (points < 0) {
-				problems.push(`You have ${points}. This is more than the maximum ${maxPoints} points.`);
+				problems.push(`You have spent ${1000 - points}. This is more than the maximum ${maxPoints} points.`);
 			}
 
 			if (problems.length !== 0) {
