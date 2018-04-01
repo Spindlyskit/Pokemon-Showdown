@@ -21,6 +21,7 @@ let Formats = [
 		name: '[Gen 7] Point Battle (Beta)',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Points'],
 		mod: 'pointbattle',
+		unbanlist: ['Unreleased'],
 	},
 	{
 		name: '[Gen 7] BL Ubers',
