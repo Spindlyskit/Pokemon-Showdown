@@ -18,9 +18,14 @@ let Formats = [
 		unbanlist: ['Zygarde-10%'],
 	},
 	{
+		name: '[Gen 7] Point Battle (Beta)',
+		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Points'],
+		mod: 'pointbattle',
+	},
+	{
 		name: '[Gen 7] BL Ubers',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		banlist: ['Uber', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	// US/UM Singles
 	///////////////////////////////////////////////////////////////////
