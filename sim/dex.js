@@ -879,7 +879,7 @@ class ModdedDex {
 				// valid pokemontags
 				const validTags = [
 					// singles tiers
-					'uber', 'bluber', 'ou', 'bl', 'uu', 'bl2', 'ru', 'bl3', 'nu', 'bl4', 'pu', 'nfe', 'lcuber', 'lc', 'cap', 'caplc', 'capnfe',
+					'uber', 'ou', 'bl', 'uu', 'bl2', 'ru', 'bl3', 'nu', 'bl4', 'pu', 'nfe', 'lcuber', 'lc', 'cap', 'caplc', 'capnfe',
 					//doubles tiers
 					'duber', 'dou', 'dbl', 'duu',
 					// custom tags

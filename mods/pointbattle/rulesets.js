@@ -1,6 +1,6 @@
 'use strict';
 
-const { tiers, bans, defCost, maxPoints } = require('./tiers');
+const {tiers, bans, defCost, maxPoints} = require('./tiers');
 
 exports.BattleFormats = {
 	points: {
@@ -21,8 +21,6 @@ exports.BattleFormats = {
 			for (const set of team) {
 				let template = this.getTemplate(set.species || set.name);
 				const item = this.getItem(set.item);
-				const ability = this.getAbility(set.ability);
-
 				let postMegaTemplate = template;
 				if (item.megaEvolves === template.species) {
 					if (!item.megaStone) throw new Error(`Item ${item.name} has no base form for mega evolution`);
@@ -31,7 +29,7 @@ exports.BattleFormats = {
 				if (['Mega', 'Mega-X', 'Mega-Y'].includes(postMegaTemplate.forme)) {
 					template = postMegaTemplate;
 				}
-				
+
 				if (bans.includes(template.species)) problems.push(`${template.species} is banned.`);
 				else {
 					points -= getCost(template.species);

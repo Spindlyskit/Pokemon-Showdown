@@ -5,6 +5,7 @@ let BattleAliases = {
 	// formats
 	"randbats": "[Gen 7] Random Battle",
 	"uber": "[Gen 7] Ubers",
+	'bluber': "[Gen 7] BL Ubers",
 	"ag": "[Gen 7] Anything Goes",
 	"randdubs": "[Gen 7] Random Doubles Battle",
 	"doubles": "[Gen 7] Doubles OU",
