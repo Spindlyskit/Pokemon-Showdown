@@ -34,7 +34,7 @@ let Formats = [
 	{
 		name: '[Gen 7] GS OU',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-		banlist: ['BLUb', 'Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass', 'Toxapex', 'Kartana', 'Zygarde-Base'],
+		banlist: ['BL Uber', 'Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
 		name: '[Gen 7] Point Battle (Beta)',
