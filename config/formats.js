@@ -14,19 +14,19 @@ let Formats = [
 	{
 		name: '[Gen 7] GS OU',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass', 'Toxapex', 'Kartana', 'Zygarde-Base'],
+		banlist: ['BLUb', 'Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass', 'Toxapex', 'Kartana', 'Zygarde-Base'],
 	},
 	{
 		name: '[Gen 7] Point Battle (Beta)',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Points'],
 		mod: 'pointbattle',
-		banlist: ['Baton Pass', 'Shadow Tag', 'Power Construct'],
+		banlist: ['Baton Pass', 'Shadow Tag', 'Power Construct', 'Moody', ],
 		unbanlist: ['Unreleased'],
 	},
 	{
 		name: '[Gen 7] BL Ubers',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Mega Rayquaza Clause'],
-		banlist: ['Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fairy', 'Arceus-Fighting', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Ground', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Baton Pass', 'Blazikenite', 'Blue Orb', 'Deoxys-Attack', 'Gengarite', 'Ho-Oh', 'Kyogre', 'Lucarionite', 'Lunala', 'Marshadow', 'Mewtwo', 'Mewtwonite Y', 'Naganadel', 'Necrozma-Dusk-Mane', 'Power Construct', 'Rayquaza', 'Red Orb', 'Salamencite', 'Shadow Tag', 'Ultranecrozium Z', 'Unreleased', 'Xerneas', 'Yveltal', 'Illegal', 'Lugia'],
+		banlist: ['Uber', 'Baton Pass', 'Shadow Tag', 'Red Orb'],
 		onValidateSet: function (set, format) {
 			const template = this.getTemplate(set);
 			if (template.species === 'Arceus') {
