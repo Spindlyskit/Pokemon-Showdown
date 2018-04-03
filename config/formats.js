@@ -20,7 +20,7 @@ let Formats = [
 		name: '[Gen 7] Point Battle (Beta)',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Points'],
 		mod: 'pointbattle',
-		banlist: ['Baton Pass', 'Shadow Tag', 'Power Constuct'],
+		banlist: ['Baton Pass', 'Shadow Tag', 'Power Construct'],
 		unbanlist: ['Unreleased'],
 	},
 	{
