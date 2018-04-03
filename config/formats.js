@@ -46,7 +46,7 @@ let Formats = [
 	{
 		name: '[Gen 7] BL Ubers',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Mega Rayquaza Clause'],
-		banlist: ['Uber', 'Baton Pass', 'Shadow Tag', 'Red Orb'],
+		banlist: ['Uber', 'Baton Pass', 'Shadow Tag', 'Red Orb', 'Ultranecrozium Z'],
 	},
 	{
 		name: '[Gen 7] Anything Goes',
