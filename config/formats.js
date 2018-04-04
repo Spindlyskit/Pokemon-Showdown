@@ -37,16 +37,21 @@ let Formats = [
 		banlist: ['BL Uber', 'Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
+		name: '[Gen 7] BL Ubers',
+		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Mega Rayquaza Clause'],
+		banlist: ['Uber', 'Baton Pass', 'Shadow Tag', 'Red Orb', 'Ultranecrozium Z'],
+	},
+	{
+		name: '[Gen 7] GS Ubers',
+		Ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Mega Rayquaza Clause'],
+		Bans: ['Baton Pass'],
+	},
+	{
 		name: '[Gen 7] Point Battle (Beta)',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Points'],
 		mod: 'pointbattle',
 		banlist: ['Baton Pass', 'Shadow Tag', 'Power Construct', 'Moody', ],
 		unbanlist: ['Unreleased'],
-	},
-	{
-		name: '[Gen 7] BL Ubers',
-		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Mega Rayquaza Clause'],
-		banlist: ['Uber', 'Baton Pass', 'Shadow Tag', 'Red Orb', 'Ultranecrozium Z'],
 	},
 	{
 		name: '[Gen 7] Anything Goes',
