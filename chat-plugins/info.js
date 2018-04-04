@@ -2134,6 +2134,8 @@ exports.commands = {
 			return defCost;
 		};
 
+		if (!this.runBroadcast()) return false;
+
 		const seachRes = Dex.dataSearch(target);
 
 		if (!seachRes) {
