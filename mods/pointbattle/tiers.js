@@ -54,7 +54,7 @@ module.exports.tiers = [
         'Metagross-Mega',
         'Tapu Koko',
         'Tapu Lele',
-        'Zygarde-Base',
+        'Zygarde',
     ]],
     [300, [
         'Alakazam-Mega',

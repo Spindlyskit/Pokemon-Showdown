@@ -2142,6 +2142,8 @@ exports.commands = {
 
 		const {searchType, name} = seachRes[0];
 
+		const template = this.getTemplate(name);
+
 		if (searchType !== 'pokemon') {
 			return this.sendReplyBox(Chat.html`<em>Invalid Pokémon!</em>`);
 		}
