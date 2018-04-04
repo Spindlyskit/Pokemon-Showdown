@@ -2142,14 +2142,12 @@ exports.commands = {
 
 		const {searchType, name} = seachRes[0];
 
-		const template = this.getTemplate(name);
-
 		if (searchType !== 'pokemon') {
 			return this.sendReplyBox(Chat.html`<em>Invalid Pokémon!</em>`);
 		}
 
-		return this.sendReplyBox(Chat.html`<em>${name} ${bans.includes(name) ? 'is banned in [Gen 7] Point Battle!' :
-			`costs ${getCost(name)}!`}</em>`);
+		return this.sendReplyBox(Chat.html`<em>${name} ${bans.includes(name) ? 'is banned' :
+			`costs ${getCost(name)} to use`} in [Gen 7] Point Battle!</em>`);
 	},
 };
 
