@@ -2116,6 +2116,39 @@ exports.commands = {
 		`/htmlbox [message] - Displays a message, parsing HTML code contained.`,
 		`!htmlbox [message] - Shows everyone a message, parsing HTML code contained. Requires: ~ & #`,
 	],
+
+	/*********************************************************
+	 * PB Cost
+	 *********************************************************/
+
+	'!cost': true,
+	points: 'cost',
+	pbcost: 'cost',
+	cost: function (target, room, user, connection, cmd) {
+		const {tiers, bans, defCost, maxPoints} = require('./tiers');
+
+		const getCost = species => {
+			for (const i of tiers) {
+				if (i[1].includes(species)) return i[0];
+			}
+			return defCost;
+		};
+
+		const seachRes = Dex.dataSearch(target);
+
+		if (!seachRes) {
+			return this.sendReplyBox(Chat.html`<em>Invalid Pokémon!</em>`);
+		}
+
+		const {searchType, name} = seachRes[0];
+
+		if (searchType !== 'pokemon') {
+			return this.sendReplyBox(Chat.html`<em>Invalid Pokémon!</em>`);
+		}
+
+		return this.sendReplyBox(Chat.html`<em>${name} ${bans.includes(name) ? 'is banned in [Gen 7] Point Battle!' :
+			`costs ${getCost(name)}!`}</em>`);
+	},
 };
 
 process.nextTick(() => {
