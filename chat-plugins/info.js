@@ -2125,7 +2125,7 @@ exports.commands = {
 	points: 'cost',
 	pbcost: 'cost',
 	cost: function (target, room, user, connection, cmd) {
-		const {tiers, bans, defCost, maxPoints} = require('./tiers');
+		const {tiers, bans, defCost} = require('../mods/pointbattle/tiers');
 
 		const getCost = species => {
 			for (const i of tiers) {
