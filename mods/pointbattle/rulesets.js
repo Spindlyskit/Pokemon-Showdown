@@ -32,7 +32,13 @@ exports.BattleFormats = {
 
 				if (bans.includes(template.species)) problems.push(`${template.species} is banned.`);
 				else {
-					points -= getCost(template.species);
+					if(getCost(template.species) < getCost(template.baseSpecies) && getCost(template.species) === defCost && !item.megaEvolves) {
+						points -= getCost(template.baseSpecies);
+						//This won't work if a non-mega form of a Pokémon that has a price is dropped to costing 25, but there are no cases of that currently//
+					}
+					else {
+						points -= getCost(template.species);
+					}
 				}
 			}
 
