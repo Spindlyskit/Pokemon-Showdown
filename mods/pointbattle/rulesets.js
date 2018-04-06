@@ -1,6 +1,6 @@
 'use strict';
 
-const {tiers, bans, defCost, maxPoints} = require('./tiers');
+const {tiers, bans, defCost, maxPoints, getCost} = require('./tiers');
 
 exports.BattleFormats = {
 	points: {
@@ -8,12 +8,6 @@ exports.BattleFormats = {
 		name: 'Points',
 		desc: ["Gives players 1000 of points to spend on Pok&eacute;mon"],
 		onValidateTeam: function (team, format) {
-			const getCost = species => {
-				for (const i of tiers) {
-					if (i[1].includes(species)) return i[0];
-				}
-				return defCost;
-			};
 
 			let problems = [];
 			let points = maxPoints;
@@ -31,15 +25,7 @@ exports.BattleFormats = {
 				}
 
 				if (bans.includes(template.species)) problems.push(`${template.species} is banned.`);
-				else {
-					if(getCost(template.species) < getCost(template.baseSpecies) && getCost(template.species) === defCost && !item.megaEvolves) {
-						points -= getCost(template.baseSpecies);
-						//This won't work if a non-mega form of a Pokémon that has a price is dropped to costing 25, but there are no cases of that currently//
-					}
-					else {
-						points -= getCost(template.species);
-					}
-				}
+				points -= getCost(template, item);
 			}
 
 			if (points < 0) {

@@ -568,3 +568,24 @@ module.exports.tiers = [
 
 module.exports.defCost = 25;
 module.exports.maxPoints = 1000;
+
+const getCost = species => {
+    for (const i of module.exports.tiers) {
+        if (i[1].includes(species)) return i[0];
+    }
+    return module.exports.defCost;
+};
+
+module.exports.getCost = (template, item = {}) => {
+    const megaEvolves = item.megaEvolves || false;
+
+    if(getCost(template.species) < getCost(template.baseSpecies) && getCost(template.species) === module.exports.defCost && !megaEvolves) {
+        return getCost(template.baseSpecies);
+        //This won't work if a non-mega form of a Pokémon that has a price is dropped to costing 25, but there are no cases of that currently//
+    }
+    else {
+        return getCost(template.species);
+    }
+};
+
+module.exports.getCostRaw = getCost;

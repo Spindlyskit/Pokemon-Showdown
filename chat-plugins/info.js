@@ -2125,14 +2125,7 @@ exports.commands = {
 	points: 'cost',
 	pbcost: 'cost',
 	cost: function (target, room, user, connection, cmd) {
-		const {tiers, bans, defCost} = require('../mods/pointbattle/tiers');
-
-		const getCost = species => {
-			for (const i of tiers) {
-				if (i[1].includes(species)) return i[0];
-			}
-			return defCost;
-		};
+		const {tiers, bans, defCost, getCost} = require('../mods/pointbattle/tiers');
 
 		if (!this.runBroadcast()) return false;
 
@@ -2148,8 +2141,10 @@ exports.commands = {
 			return this.sendReplyBox(Chat.html`<em>Invalid Pokémon!</em>`);
 		}
 
+		const template = Dex.getTemplate(name);
+
 		return this.sendReplyBox(Chat.html`<em>${name} ${bans.includes(name) ? 'is banned' :
-			`costs ${getCost(name)} to use`} in [Gen 7] Point Battle!</em>`);
+			`costs ${getCost(template)} to use`} in [Gen 7] Point Battle!</em>`);
 	},
 };
 
