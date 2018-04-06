@@ -115,7 +115,7 @@ module.exports.tiers = [
         'Kyurem',
         'Politoed',
         'Venusaur-Mega',
-    ]]
+    ]],
     [200, [
         'Aerodactyl-Mega',
         'Aggron-Mega',
@@ -565,7 +565,6 @@ module.exports.tiers = [
         'Mightyena',
         'Minun',
         'Mothim',
-
     ]],
 ]
 
