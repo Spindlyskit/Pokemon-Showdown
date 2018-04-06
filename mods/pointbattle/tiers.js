@@ -179,7 +179,7 @@ module.exports.tiers = [
         'Staraptor',
         'Starmie',
         'Tangrowth',
-        'Tapu-Fini',
+        'Tapu Fini',
         'Terrakion',
         'Thundurus',
         'Thundurus-Therian',
