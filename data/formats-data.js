@@ -4666,7 +4666,7 @@ let BattleFormatsData = {
 		randomBattleMoves: ["seedflare", "earthpower", "airslash", "hiddenpowerfire", "substitute", "leechseed", "healingwish"],
 		randomDoubleBattleMoves: ["seedflare", "earthpower", "airslash", "hiddenpowerfire", "rest", "substitute", "leechseed", "tailwind", "protect", "hiddenpowerice"],
 		eventOnly: true,
-		tier: "Uber",
+		tier: "BL Uber",
 		doublesTier: "DUU",
 	},
 	arceus: {
